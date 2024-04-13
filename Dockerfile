@@ -16,4 +16,4 @@ RUN cp -rvf vertex/* .
 
 CMD ["/usr/sbin/nginx", "-D", "FOREGROUND"]
 
-EXPOSE 80
+EXPOSE 80 22
